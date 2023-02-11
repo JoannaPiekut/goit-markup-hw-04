@@ -123,19 +123,13 @@ li {
   margin: 0 auto;
   letter-spacing: 0.06em
 }
-/* .main-section-btn{
+.main-section-btn{
   background-color: var(--active-color);
-  color: #ffffff;
-  font-weight: 700;
   border: none;
-  letter-spacing: 2px;
-  font-size: inherit;
   display: inline-block;
+
   
-  width: 117px;
-  height: 30px;
-  
-} */
+}
 .first-page-button .link {
   display: block;
   color: #ffffff;
