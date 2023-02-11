@@ -105,6 +105,7 @@ li {
 /* ====== MAIN SECTION ====== */
 .main-section {
   background-color: var(--second-background);
+  background-image: url('//images/header-background-image.jpg');
   flex-direction: column;
   height: 400px;
   justify-content: center;
