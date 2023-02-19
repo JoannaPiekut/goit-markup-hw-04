@@ -24,36 +24,45 @@
   <body>
  
     <header class="container header">
-      <a class="company-name-link link" href="index.html"
-        ><h3 class="company-name">
-          <span class="web-color">Web</span>Studio
-        </h3></a>
-      <nav class="header-navigation">
-        <ul class="header-list">
-          <li class="header-list-item">
-            <a class="header-list-item-link link" href="index.html"><b>Agencja</b></a>
-          </li>
-          <li class="header-list-item">
-            <a class="header-list-item-link link" href="portfolio.html"><b>Portfolio</b></a>
-          </li>
-          <li class="header-list-item">
-            <a class="header-list-item-link link" href="#contact"><b>Kontakt</b></a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="contact-list">
-        <li class="contact-list-item">
-          <a class="contact-list-item-phone">+48 111 111 111</a>
-        </li>
-        <li class="contact-list-item">
-          <a class="contact-list-item-mail link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-      </ul>
-    </header>
+      <div class="logo">
+          <a class="company-name-link link" href="index.html" target="_blank"
+            ><h3 class="company-name">
+              <span class="web-color">Web</span>Studio
+            </h3></a>
+          </div>
+        <div class="section-left">
+          <nav class="header-navigation">
+            <ul class="header-list">
+              <li class="header-list-item">
+                <a class="header-list-item-link link" href="index.html"><b>Agencja</b></a>
+              </li>
+              <li class="header-list-item">
+                <a class="header-list-item-link link" target="_blank" href="portfolio.html"><b>Portfolio</b></a>
+              </li>
+              <li class="header-list-item">
+                <a class="header-list-item-link link" href="#contact"><b>Kontakt</b></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="section-right">
+          <ul class="contact-list">
+            <li class="contact-list-item">
+              <svg class="header-icon">
+                <use href="./images/icons.svg#icon-envelope"></use></svg>
+                <a class="contact-list-item-phone">+48 111 111 111</a>
+            </li>
+            <li class="contact-list-item">
+              
+              <a class="contact-list-item-mail link" href="mailto:info@devstudio.com"><svg class="header-icon header-icon-mail">
+                <use href="./images/icons.svg#icon-smartphone"></use></svg>              
+               info@devstudio.com</a>
+            </li>
+          </ul>
+        </div>
+        </header>
     <main>
-      <section class="container section">
+      <section class="container section category-menu">
         <ul class=" menu">
           <li class="button-list"><button class="active-btn link button" type="button"><b>Wszystkie</b></button></li>
           <li class="button-list"><button class="active-btn link button" type="button"><b>Strony</b></button></li>
@@ -62,139 +71,181 @@
           <li class="button-list"><button class="active-btn link button" type="button"><b>Marketing</b></button></li>
         </ul>
       </section>
-      <section class="container categories section">
+      <section class="container categories section ">
         <ul class="categories-list">
-          <li class="our-team-list-item">
-            <figure class="our-team-item-figure">
-              <img class="our-team-item-figure-img"
+          <li class="categories-list-item">
+            <a class="categories-list-item-link" href="/">
+            <figure class="categories-list-item-figure">
+              <img class="categories-list-item-figure-img"
                 src="images/technocrack.jpg"
                 alt="Laptop"
                 width="370"
                 height="294"/>
-              <figcaption class="our-team-list-item-figcaption">
+              <figcaption class="categories-list-item-figcaption">
                 <p class="category-name">Technocrack</p>
                 <p class="category-description">Strona internetowa</p>
               </figcaption>
             </figure>
+          </a>
           </li>
-          <li class="our-team-list-item">
-            <figure class="our-team-list-item-figure">
-              <img class="our-team-list-item-figure-img"
+          <li class="categories-list-item">
+            <a class="categories-list-item-link" href="/">
+            <figure class="categories-list-item-figure">
+              <img class="categories-list-item-figure-img"
                 src="images/basketball.jpg"
                 alt="basketball"
                 width="370"
                 height="294"/>
-              <figcaption class="our-team-list-item-figcaption">
+              <figcaption class="categories-list-item-figcaption">
                 <p class="category-name">Grafika New Orlean vs Golden Star</p>
                 <p class="category-description">Dizajn</p>
               </figcaption>
-            </figure class="our-team-list-item-figure">
+            </figure>
+            </a>
           </li>
-          <li class="our-team-list-item">
-            <figure>
-              <img class="our-team-list-item-figure-img"
+          <li class="categories-list-item">
+            <a class="categories-list-item-link" href="/">
+            <figure class="categories-list-item-figure">
+              <img class="categories-list-item-figure-img"
                 src="images/restaurant.jpg"
                 alt="restaurant"
                 width="370"
                 height="294"/>
-              <figcaption class="our-team-list-item-figcaption">
+              <figcaption class="categories-list-item-figcaption">
                 <p class="category-name">Restauracja Seafood</p>
                 <p class="category-description">Aplikacja</p>
               </figcaption>
-            </figure class="our-team-list-item-figure">
+            </figure>
+            </a>
           </li>
-          <li class="our-team-list-item">
-            <figure>
-              <img class="our-team-list-item-figure-img"
+          <li class="categories-list-item">
+            <a class="categories-list-item-link" href="/">
+            <figure class="categories-list-item-figure">
+              <img class="categories-list-item-figure-img"
                 src="images/headphones.jpg"
                 alt="headphones"
                 width="370"
                 height="294"/>
-              <figcaption class="our-team-list-item-figcaption">
+              <figcaption class="categories-list-item-figcaption">
                 <p class="category-name">Projekt Prime</p>
                 <p class="category-description">Marketing</p>
               </figcaption>
             </figure>
+            </a>
           </li>
-          <li class="our-team-list-item">
-            <figure>
-              <img class="our-team-list-item-figure-img"
+          <li class="categories-list-item">
+            <a class="categories-list-item-link" href="/">
+            <figure class="categories-list-item-figure">
+              <img class="categories-list-item-figure-img"
                 src="images/boxes.jpg"
                 alt="boxes"
                 width="370"
                 height="294"/>
-              <figcaption class="our-team-list-item-figcaption">
+              <figcaption class="categories-list-item-figcaption">
                 <p class="category-name">Projekt Boxes</p>
                 <p class="category-description">Projekt Boxes</p>
               </figcaption>
             </figure>
+            </a>
           </li>
-          <li class="our-team-list-item">
-            <figure>
-              <img class="our-team-list-item-figure-img"
+          <li class="categories-list-item">
+            <a class="categories-list-item-link" href="/">
+            <figure class="categories-list-item-figure">
+              <img class="categories-list-item-figure-img"
                 src="images/inspiration.jpg"
                 alt="inspiration"
                 width="370"
                 height="294"/>
-              <figcaption class="our-team-list-item-figcaption">
+              <figcaption class="categories-list-item-figcaption">
                 <p class="category-name">Inspiration has no Borders</p>
                 <p class="category-description">Strona internetowa</p>
               </figcaption>
             </figure>
+            </a>
           </li>
-          <li class="our-team-list-item">
-            <figure>
-              <img class="our-team-list-item-figure-img"
+          <li class="categories-list-item">
+            <a class="categories-list-item-link" href="/">
+            <figure class="categories-list-item-figure">
+              <img class="categories-list-item-figure-img"
                 src="images/magazine.jpg"
                 alt="magazine"
                 width="370"
                 height="294"/>
-              <figcaption class="our-team-list-item-figcaption">
+              <figcaption class="categories-list-item-figcaption">
                 <p class="category-name">Magazyn Limited Edition</p>
                 <p class="category-description">Dizajn</p>
               </figcaption>
             </figure>
+            </a>
           </li>
-          <li class="our-team-list-item">
-            <figure>
-              <img class="our-team-list-item-figure-img"
+          <li class="categories-list-item">
+            <a class="categories-list-item-link" href="/">
+            <figure class="categories-list-item-figure">
+              <img class="categories-list-item-figure-img"
                 src="images/projectlab.jpg"
                 alt="projectlab"
                 width="370"
                 height="294"/>
-              <figcaption class="our-team-list-item-figcaption">
+              <figcaption class="categories-list-item-figcaption">
                 <p class="category-name">Projekt LAB</p>
                 <p class="category-description">Marketing</p>
               </figcaption>
             </figure>
+            </a>
           </li>
-          <li class="our-team-list-item">
-            <figure>
-              <img class="our-team-list-item-figure-img"
+          <li class="categories-list-item">
+            <a class="categories-list-item-link" href="/">
+            <figure class="categories-list-item-figure">
+              <img class="categories-list-item-figure-img"
                 src="images/business.jpg"
                 alt="business"
                 width="370"
                 height="294"/>
-              <figcaption class="our-team-list-item-figcaption">
+              <figcaption class="categories-list-item-figcaption">
                 <p class="category-name">Growing Business</p>
                 <p class="category-description">Aplikacja</p>
               </figcaption>
             </figure>
-          </li>
+            </a>
+           </li>
         </ul>
       </section>
     </main>   
     <footer class="container footer-section">
       <div class="footer">
+        <div class="left-side-footer">
       <a class="company-name-link link" href="index.html"><h3 class="company-name">
           <span class="web-color">Web</span><span class="footer-studio">Studio</span>
         </h3></a>
       <address class="footer-section-address" id="contact">
         <p class="footer-section-address-description">m. Warszawa, Aleje Jerozolimskie 21</p>
         <p><a class="footer-section-address-mail link" href="mailto:info@devstudio.com">info@devstudio.com<a></p>
-        <p class="footer-section-address-phone">+48 111 111 111</p>
+        <p><a class="footer-section-address-phone">+48 111 111 111</a></p>
       </address>
     </div>
+      <section class="join-us">
+        <div>
+        <h3 class="join-us-header">DOŁĄCZ DO NAS</h3>
+<ul class="join-us-list">
+  <li class="join-us-list-item">
+    <a class="join-us-social-links" href="https://www.instagram.com/" target="_blank"><svg class="join-us-list-item-bg" width="44px" height="44px" >
+      <use class="join-us-list-item-icon" href="./images/icons.svg#icon-instagram-2" width="20px" height="20px" x="27%" y="27%"></use></svg></a>
+  </li>
+  <li class="join-us-list-item">
+    <a class="join-us-social-links" href="https://twitter.com/" target="_blank"><svg class="join-us-list-item-bg" width="44px" height="44px" >
+      <use class="join-us-list-item-icon" href="./images/icons.svg#icon-twitter-1" width="20px" height="20px" x="27%" y="27%"></use></svg></a>
+  </li>
+  <li class="join-us-list-item">
+    <a class="join-us-social-links" href="https://www.facebook.com/" target="_blank"><svg class="join-us-list-item-bg" width="44px" height="44px" >
+      <use class="join-us-list-item-icon" href="./images/icons.svg#icon-facebook-1" width="20px" height="20px" x="27%" y="27%"></use></svg></a>
+  </li>
+  <li class="join-us-list-item">
+    <a class="join-us-social-links" href="https://linkedin.com/" target="_blank"><svg class="join-us-list-item-bg" width="44px" height="44px" >
+      <use class="join-us-list-item-icon" href="./images/icons.svg#icon-linkedin-1" width="20px" height="20px" x="27%" y="27%"></use></svg></a>
+  </li>
+</ul>
+</div>
+      </section>
     </footer>
   </body>
 </html>
