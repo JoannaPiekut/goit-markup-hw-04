@@ -240,7 +240,6 @@ li {
   padding-inline-start: 0px;
 }
 .our-team-header {
-  font-style: 700;
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
@@ -310,6 +309,7 @@ background-color: var(--active-color)
   display: flex;
 padding-inline-start:0px;
 padding: 94px 0px;
+flex-direction: column;
 }
 
 .customers-list{
@@ -337,6 +337,12 @@ padding: 94px 0px;
 .customers-list-item-icon:hover,
 .customers-list-item-icon:focus{
 fill: var(--active-color)
+}
+.our-customers-header{
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+padding-bottom: 40px;
 }
 
 /* ====== END CUSTOMERS SECTION ====== */
