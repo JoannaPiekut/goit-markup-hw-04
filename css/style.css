@@ -407,6 +407,9 @@ padding-bottom: 40px;
   display: flex;
   justify-content: flex-start;
 }
+.left-side-footer{
+  margin-right: 70px;
+}
 
 .company-name-link{
 display: flex;
@@ -428,6 +431,7 @@ display: flex;
 }
 .footer-section-address-phone{
   margin-left: 0%;
+  padding-left: 0%;
 }
 
 .footer-section-address-mail,
@@ -458,18 +462,26 @@ display: flex;
   font-size: 14px;
   line-height: 1.167;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   letter-spacing: 0.03em;
   color:#ffffff;
   }
 
   .join-us-list{
     display: flex;
-
   }
+  .join-us-list-item{
+    display:flex;
+    justify-content:space-evenly;
+    margin-right: 10px;
+  }
+  
 .join-us-list-item-bg{
   border-radius: 50% ;
   background-color:rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-evenly;
+  
   }
   
   .join-us-list-item-bg:hover,
