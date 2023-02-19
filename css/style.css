@@ -336,7 +336,7 @@ padding: 94px 0px;
 
 .customers-list-item-icon:hover,
 .customers-list-item-icon:focus{
-  fill: var(--active-color)
+fill: var(--active-color)
 }
 
 /* ====== END CUSTOMERS SECTION ====== */
