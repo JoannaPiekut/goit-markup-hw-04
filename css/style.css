@@ -16,6 +16,49 @@ li {
   list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* ====== SAME COMPONENTS ====== */
 
 .web-color {
@@ -306,7 +349,7 @@ background-color: var(--active-color)
 
 /* ====== CUSTOMERS SECTION ====== */
 .our-customers{
-  display: flex;
+display: flex;
 padding-inline-start:0px;
 padding: 94px 0px;
 flex-direction: column;
@@ -354,10 +397,24 @@ padding-bottom: 40px;
 }
 .footer {
   padding: 70px;
+  margin-left: 0%;
+  margin-right: 0%;
+  display: flex;
 }
 .footer-section {
   background-color: var(--second-background);
   height: 252px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.company-name-link{
+display: flex;
+}
+.footer-section-address{
+  display:flex;
+  justify-content:flex-start;
+  flex-direction: column
 }
 
 .footer-section-address-description {
@@ -368,6 +425,9 @@ padding-bottom: 40px;
   color: #ffffff;
   padding-top: 20px;
   padding-bottom: 10px;
+}
+.footer-section-address-phone{
+  margin-left: 0%;
 }
 
 .footer-section-address-mail,
@@ -386,6 +446,47 @@ padding-bottom: 40px;
 .footer-section-address-mail:focus {
   color: var(--active-color);
 }
+
+.join-us{
+  display:flex;
+  flex-direction: row;
+}
+
+.join-us-header{
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  line-height: 1.167;
+  text-align: center;
+  padding-bottom: 40px;
+  letter-spacing: 0.03em;
+  color:#ffffff;
+  }
+
+  .join-us-list{
+    display: flex;
+
+  }
+.join-us-list-item-bg{
+  border-radius: 50% ;
+  background-color:rgba(255, 255, 255, 0.1);
+  }
+  
+  .join-us-list-item-bg:hover,
+  .join-us-list-item-bg:focus{
+  background-color: var(--active-color)
+  }
+  
+  .join-us-list-item-icon{
+    fill: #ffffff;
+  }
+   .join-us-social-links{
+    display:flex;
+    justify-content:center;
+    padding-inline-start:0px;
+    padding-bottom: 20px;
+    flex-direction: column;  
+  }
 
 /* ====== END FOOTER SECTION ====== */
 
