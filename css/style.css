@@ -173,10 +173,11 @@ li {
 .assets-section-list {
   padding: 94px 0px;
   display: flex;
-  justify-content: space-around;
-  margin: auto;
+  justify-content: space-between;
+  margin: auto 20px;
   max-width: 1200px;
 }
+
 .assets-section-list-header {
   font-size: 14px;
   line-height: 1.143;
@@ -198,12 +199,13 @@ li {
   justify-content: space-between;
   flex-direction: column;}
 
-.our-assets-icon{
-  width:280px;
-  height: 120px;
-  background-color: #F5F4FA ;
- }
- .our-assets-icon:not(:last-child){
+.our-assets-bg{
+  /* width: 265px;
+  height: 120px; */
+  background-color: #F5F4FA;
+  border-radius: 4px;
+   }
+ .our-assets-bg:not(:last-child){
   margin-right: 30px;
  }
 
