@@ -305,6 +305,31 @@ background-color: #2196F3;
 }
 /* ====== END TEAM SECTION ====== */
 
+/* ====== CUSTOMERS SECTION ====== */
+.our-customers{
+  display: flex;
+padding-inline-start:0px;
+padding: 94px 0px;
+}
+
+.customers-list{
+ display: flex;
+ justify-content: center;
+
+}
+.customers-list-item-bg{
+  border: 1px solid #AFB1B8;
+  border-radius: 4px ;
+  flex-direction: row;
+  margin-right:10px;
+  margin-left:10px;
+
+
+}
+
+
+/* ====== END CUSTOMERS SECTION ====== */
+
 /* ====== FOOTER SECTION ====== */
 
 .footer-studio {
