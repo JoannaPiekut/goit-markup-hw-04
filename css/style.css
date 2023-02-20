@@ -94,11 +94,18 @@ button {
 /* ====== HEADER ====== */
 .header {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 10px;
   height: 80px;
   border-bottom: 1px solid #ececec;
+}
+.header-section-left{
+  display: flex;
+  align-items:center;
+}
+
+.logo{
+  display: flex;
+  align-items:center
 }
 
 .header-list-item {
