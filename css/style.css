@@ -10,7 +10,8 @@ body {
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   color: var(--second-font-color);
   box-sizing: border-box;
-  width: 1200px;
+font-size:14px;
+letter-spacing: 0.3em;
 }
 li {
   list-style: none;
