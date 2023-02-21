@@ -69,8 +69,9 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700px;
   font-size: 26px;
-  line-height: 30.52px;
+  line-height: 31px;
   color: #000000;
+  letter-spacing: 0.03em;
 }
 .company-name-link {
   text-decoration: none;
@@ -98,8 +99,9 @@ button {
   height: 80px;
   border-bottom: 1px solid #ececec;
 }
-.header-section-left{
-  display: flex;
+
+.row{
+    display: flex;
   align-items:center;
 }
 
@@ -110,10 +112,10 @@ button {
 
 .header-list-item {
   text-decoration: none;
-  font-style: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.02em;
   padding-left: 10px;
 }
 .header-list-item-link {
@@ -123,6 +125,14 @@ button {
 .header-list-item-link:hover,
 .header-list-item-link:focus {
   color: var(--active-color);
+}
+
+.header-navigation{
+  margin-left: 93px;
+}
+
+.section-right{
+   margin-left:auto
 }
 .contact-list-item {
   display: inline-block;
