@@ -571,16 +571,19 @@ display: flex;
   padding-bottom: 0%;
 }
 /* .categories-list {
-}
-.categories-list-item {
-} */
-.categories-list-item-figure {
+ */
+.categories-list-item-figure{
   border: 1px solid #EEEEEE;
+  height:352.59px;
 }
 .categories-list-item-link{
   display: block ;
 }
 
+.categories-list-item {
+  display: flex;
+  flex-basis: calc((100% - 2*30px) / 3)
+}
 
 .categories-list-item-link:hover,
 .categories-list-item-link:focus{
