@@ -575,6 +575,8 @@ display: flex;
 .categories-list-item-figure{
   border: 1px solid #EEEEEE;
   height:352.59px;
+  display: block;
+  margin-inline-end: 30px
 }
 .categories-list-item-link{
   display: block ;
