@@ -132,7 +132,9 @@ button {
 }
 
 .section-right{
-   margin-left:auto
+   margin-left:auto;
+   display: flex;
+   gap: 50px;
 }
 .contact-list-item {
   display: inline-block;
@@ -143,7 +145,7 @@ button {
   color: var(--main-font-color);
   letter-spacing: 1.5px;
   justify-content: space-between;
-  padding-left: 10px;
+
  
   
 }
