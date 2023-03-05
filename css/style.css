@@ -57,7 +57,7 @@ button {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 0px;
 }
 h2{
   font-family: 'Roboto';
@@ -484,6 +484,12 @@ display: flex;
   color: var(--active-color);
 }
 
+.footer-section-address-phone:hover,
+.footer-section-address-phone:focus{
+  color: var(--active-color);
+}
+
+
 .join-us{
   display:flex;
   flex-direction: row;
@@ -543,24 +549,27 @@ display: flex;
   display: flex;
   padding-inline-start: 0px;
   justify-content: center;
-  gap: 40px;
+  gap: 8px;
+  
 }
 .button-list {
   margin: 0;
   justify-content: center;
   align-items: center;
- 
 }
 
 .button {
   background-color: var(--button-background);
   font-size: 16px;
   line-height: 1.625;
+  font-weight: 500;
   color: var(--second-font-color);
-  letter-spacing: 1.5px;
+  letter-spacing: .03em;
   border: none;
   border-radius: 4px;
-  padding: 6px 22px
+  padding: 6px 22px;
+  font-family: "Roboto";
+  
 }
 .active-btn:hover,
 .active-btn:focus {
@@ -575,7 +584,9 @@ display: flex;
   display: flex;
   flex-wrap: wrap;
   padding-inline-start: 0px;
-  gap: 30px;
+  gap:30px;
+  max-width: 1600px
+
  }
 
 .categories {
@@ -588,17 +599,20 @@ display: flex;
  */
 .categories-list-item-figure{
   border: 1px solid #EEEEEE;
-  height:352.59px;
-  display: block;
-  margin-inline-end: 30px
+  display: flex;
+  flex-direction: column;
+  margin:0px;
+  
+ 
 }
 .categories-list-item-link{
-  display: block ;
+  display: flex;
+  flex-direction: column;
 }
 
 .categories-list-item {
   display: flex;
-  flex-basis: calc((100% - 2*30px) / 3)
+  /* flex-basis: calc((100% - 2*30px) / 3) */
 }
 
 .categories-list-item-link:hover,
