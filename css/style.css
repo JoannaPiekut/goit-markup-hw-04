@@ -663,6 +663,9 @@ display: flex;
 .category-menu{
   padding-bottom: 0%;
 }
+.categories-list-item-div{
+  margin: 20px 24px 20px 24px;
+}
 /* .categories-list {
  */
 /* .categories-list-item-figure{
@@ -700,14 +703,17 @@ display: flex;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.444;
-  letter-spacing: 1.5px;
+  letter-spacing: .06em;
   color: #000000;
+  font-family: 'Roboto';
 }
 .category-description {
   font-size: 16px;
   line-height: 1.85;
   color: #757575;
-  letter-spacing: 1px;
+  letter-spacing: 0.03em;
+  font-family: 'Roboto';
+  font-weight: 400;
 }
 
 /* ====== END CATEGORIES SECTION ====== */
